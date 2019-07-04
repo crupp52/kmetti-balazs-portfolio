@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ URL::asset('css/freelancer.min.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('css/stylesheet.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/stylesheet.css') }}?v=2">
 </head>
 <body id="page-top">
     
