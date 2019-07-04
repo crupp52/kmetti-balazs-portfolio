@@ -1,4 +1,5 @@
-@extends('layout')
+{{-- @extends('layout') --}}
+@extends('layout1')
 
 @section('prices')
     <tbody>
