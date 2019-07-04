@@ -1,3 +1,9 @@
 @extends('layout')
 
-@section('title', 'Főoldal')
+@section('prices')
+    <tbody>
+        <tr>
+            <td>Mark</td>
+            <td>Otto</td>
+    </tbody>
+@endsection
