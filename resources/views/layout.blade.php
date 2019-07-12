@@ -26,7 +26,7 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfólió</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#rolam">Rólam</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#allvany-berles">Állvány bérlés</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#arak">Árak</a>
@@ -68,67 +68,37 @@
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                        <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="{{ URL::asset('img/portfolio/building1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ URL::asset('img/portfolio/portfolio_1.jpg') }}" alt="">
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                        <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="{{ URL::asset('img/portfolio/building1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ URL::asset('img/portfolio/portfolio_2.jpg') }}" alt="">
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                        <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="{{ URL::asset('img/portfolio/building1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ URL::asset('img/portfolio/portfolio_3.jpg') }}" alt="">
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                        <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="{{ URL::asset('img/portfolio/building1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ URL::asset('img/portfolio/portfolio_4.jpg') }}" alt="">
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                        <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="{{ URL::asset('img/portfolio/building1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ URL::asset('img/portfolio/portfolio_5.jpg') }}" alt="">
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                        <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="{{ URL::asset('img/portfolio/building1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ URL::asset('img/portfolio/portfolio_6.jpg') }}" alt="">
                     </div>
                 </div>
 
@@ -137,23 +107,34 @@
         </div>
     </section>
     
-    <section class="page-section" id="rolam">
+    <section class="page-section" id="allvany-berles">
         <div class="container">
             
-            <h2 class="page-section-heading text-center text-uppercase">Rólam</h2>
+            <h2 class="page-section-heading text-center text-uppercase">Állvány bérlés</h2>
             
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
             </div>
             
             <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eos officia, mollitia eum maiores placeat id hic cupiditate dolores at, magni ea recusandae dolore quisquam nam, ab iusto ducimus accusamus!</p>
-                </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laudantium tenetur fugit ad fuga doloremque delectus aliquid. Magnam neque eligendi laborum asperiores iure ad odit velit ipsa! Rem, commodi saepe?</p>
+                <div class="col-lg-12">
+                    <p class="lead">Homlokzati Graf állványrendszer bérbeadása változó felületű munkákhoz. A rendelkezésre bocsátható állványzat 10-280 m2 között lehetséges.  A bérelni kívánt állványt a helyszínre szállítjuk, és ott segítünk az összeállításban, ezzel ön időt takarít, emelet biztosítjuk önnek a kellő szakértelmet, ami az állványzat üzembehelyezéséhez szükséges. Így önnek nem kell az állvány szerelésével bajlódni, azt tapasztalt szakemberek, elvégzik ön helyett. Szükség esetén segítünk önnek a rendszer bontásában, illetve az állányelemek elszállításában.</p>
                 </div>
             </div>
+			
+			<div class="row">
+                <div class="col-lg-12">
+                    <p class="lead">Továbbá különböző építőipari és ácsmunkákat vállalunk, legyen szó tető felújításról, ereszcsatorna cseréről, esetleg teraszépítésről. Különböző kőművesmunkákkal, építkezéssel, átépítéssel, egyaránt külső és belső munkával keressenek bizalommal.</p>
+                </div>
+            </div>
+			
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+						<img class="img-fluid" src="{{ URL::asset('img/allvany.jpg') }}" alt="">
+					</div>
+				</div>
+			</div>
 
         </div>    
     </section>
@@ -237,14 +218,9 @@
     <footer class="footer text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">Cím</h4>
-                <p class="lead mb-0">2215 John Daniel Drive
-                    <br>Clark, MO 65243</p>
-                </div>
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">Telefonszám</h4>
-                <p class="lead mb-0">+3630 1234 567</p>
+                <div class="col-lg-12 mb-5 mb-lg-0">
+					<h4 class="text-uppercase mb-4">Telefonszám</h4>
+					<p class="lead mb-0">Kmetti Balázs<br>+3620 2916 124</p>
                 </div>
             </div>
         </div>
