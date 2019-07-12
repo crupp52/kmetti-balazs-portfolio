@@ -30,7 +30,7 @@
     }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/building1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/building-industry.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -47,4 +47,8 @@ header {
 .masthead-avatar {
     border-radius: 50%;
     border: 5px solid #ffffff;
+}
+
+.lead {
+	font-family: 'Roboto', sans-serif;
 }
