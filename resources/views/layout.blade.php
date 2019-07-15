@@ -29,6 +29,9 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#allvany-berles">Állvány bérlés</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#egyeb-munkak">Egyéb munkák</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#arak">Árak</a>
                     </li>
                 <li class="nav-item mx-0 mx-lg-1">
@@ -44,13 +47,13 @@
             
     {{--        <img class="masthead-avatar mb-5" src="{{ URL::asset('img/avatar.jpg') }}" alt="avatar">--}}
 
-            <h1 class="masthead-heading text-uppercase mb-0">Kmetti Balázs</h1>
+            <h1 class="masthead-heading text-uppercase mb-0">Állvány bérbeadás</h1>
 
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
             </div>
 
-            <p class="masthead-subheading font-weight-light mb-0">Ács-állványozó</p>
+            <p class="masthead-subheading font-weight-light mb-0">Kmetti Balázs - ács-állványozó</p>
 
         </div>
     </header>
@@ -118,13 +121,7 @@
             
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="lead">Homlokzati Graf állványrendszer bérbeadása változó felületű munkákhoz. A rendelkezésre bocsátható állványzat 10-280 m2 között lehetséges.  A bérelni kívánt állványt a helyszínre szállítjuk, és ott segítünk az összeállításban, ezzel ön időt takarít, emelet biztosítjuk önnek a kellő szakértelmet, ami az állványzat üzembehelyezéséhez szükséges. Így önnek nem kell az állvány szerelésével bajlódni, azt tapasztalt szakemberek, elvégzik ön helyett. Szükség esetén segítünk önnek a rendszer bontásában, illetve az állányelemek elszállításában.</p>
-                </div>
-            </div>
-			
-			<div class="row">
-                <div class="col-lg-12">
-                    <p class="lead">Továbbá különböző építőipari és ácsmunkákat vállalunk, legyen szó tető felújításról, ereszcsatorna cseréről, esetleg teraszépítésről. Különböző kőművesmunkákkal, építkezéssel, átépítéssel, egyaránt külső és belső munkával keressenek bizalommal.</p>
+                    <p class="lead">Homlokzati Graf állványrendszer bérbeadása változó felületű munkákhoz. A bérelt állványt igény esetén a helyszínre szállítjuk, összeszereljük, majd a munka bérlés végeztével elbontjuk és elszállítjuk. Az állvány összeállításához és szétszedéséhez szakrételem szükséges, különben a felépített állványzat balesetveszélyes és nem biztonságos. A megrendelő, a saját felelőségére kérheti a szolgáltatást szerelés nélkül, de ilyenkor az szállítás is a megrendelőnek kell megoldani, a szállítás és szerelés egy csomagot alkot és nem bontható fel.</p>
                 </div>
             </div>
 			
@@ -137,6 +134,24 @@
 			</div>
 
         </div>    
+    </section>
+
+    <section class="page-section" id="egyeb-munkak">
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase">Egyéb munkák</h2>
+
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="lead">Az állvány bérlés mellett különböző építőipari és ácsmunkákat vállalunk, legyen szó tető felújításról, ereszcsatorna cseréről, esetleg teraszépítésről. Különböző kőművesmunkákkal, építkezéssel, átépítéssel, egyaránt külső és belső munkával keressenek bizalommal.</p>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <section class="page-section" id="arak">
@@ -152,8 +167,10 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th scope="col">Termék</th>
-                            <th scope="col">Ár</th>
+                            <th scope="col">m<sup>2</sup></th>
+                            <th scope="col">Bérlés (ft/m<sup>2</sup>)</th>
+                            <th scope="col">Építés-bontás (ft/m<sup>2</sup>)</th>
+                            <th scope="col">Szállítás (ft/km)</th>
                         </tr>
                     </thead>
                     @yield('prices')
@@ -169,48 +186,16 @@
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Kapcsolat</h2>
 
         <div class="divider-custom">
-          <div class="divider-custom-line"></div>
+            <div class="divider-custom-line"></div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Név</label>
-                  <input class="form-control" id="name" type="text" placeholder="Név" required="required" data-validation-required-message="Add meg a neved!">
-                  <p class="help-block text-danger"></p>
-                </div>
+          <div class="row">
+              <div class="col-lg-12">
+                  <p class="lead text-center">Kapcsolattartó és kivitelező: <span class="font-weight-bold">Kmetti Balázs</span></p>
+                  <p class="lead text-center">Árajánlat kérése: <span class="font-weight-bold">kbalazs0306@gmail.com</span></p>
+                  <p class="lead text-center">Telefonszám: <span class="font-weight-bold">+3620 2916 124</span></p>
               </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email cím</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email cím" required="required" data-validation-required-message="Add meg az email címed!">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Telefonszám</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Telefonszám" required="required" data-validation-required-message="Add meg a telefonszámod!">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Üzenet</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Üzenet" required="required" data-validation-required-message="Add meg az üzenetet!"></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br>
-              <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Küld</button>
-              </div>
-            </form>
           </div>
-        </div>
   
       </div>
     </section>
